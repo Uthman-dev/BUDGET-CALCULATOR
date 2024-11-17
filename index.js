@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
       // Add expense to the list
       const expenseItem = document.createElement('div');
-      expenseItem.textContent = `${expenseTitle}: kSH${expenseCost.toFixed(2)}`;
+      expenseItem.textContent = `${expenseTitle}: ksh${expenseCost.toFixed(2)}`;
       expenseListContainer.appendChild(expenseItem);
   
       // Update balance
