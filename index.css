@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: #f7f9fd;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.budget, .expenses{
+    border: 0.05px none;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: 5px 5px 10px  black;
+}
+
+
+input{
+    border-radius: 3px;
+    border: 0.05px solid black;
+    padding: 3px;
+    width: 600px;
+}
+button{
+    color: white;
+    background-color: #587ef4;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgb(38, 0, 255);
+}
+button:hover{
+    color: rgb(84, 255, 204);
+    box-shadow: 5px 5px 5px rgb(84, 255, 204);
+}
+
+
+.inputdisplay{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px none;
+    border-radius: 5px;
+    background-color: #587ef4;
+    color: white;
+    text-align: center;
+
+}
+.list{
+    margin: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px none;
+    border-radius: 5px;  
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+
+
+
+
+@media  only screen and (max-width:600px){
+    .container{
+            display: block;
+            margin: 20px;
+          
+        }
+    
+     .budget, .expenses, input, .inputdisplay, .list{
+            width: 250px;
+            font-size: 14px;
+            margin-top: 10px;
+            
+           
+            
+        }
+    .inputdisplay, .list{
+        padding: 30px;   
+        }
+    
+    }
+
+ 
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="budget">
+          <h3>Budget</h3>
+          <br />
+          <input type="number" placeholder="Enter Total Amount" />
+          <br /><br />
+          <button>Set Budget</button>
+        </div>
+
+        <div class="expenses">
+          <h3>Expenses</h3>
+          <br />
+          <input type="text" placeholder="Enter Title Of Product" />
+          <br />
+          <br />
+          <input type="number" placeholder="Enter Cost Of Product" />
+          <br /><br />
+          <button>Check Amount</button>
+        </div>
+      </div>
+
+      <div class="inputdisplay">
+        <div>
+          <p>Total Budget</p>
+          <span id="total-budget">0</span>
+        </div>
+
+        <div>
+          <p>Expenses</p>
+          <span id="expenses-amuont">0</span>
+        </div>
+
+        <div>
+          <p>Balance</p>
+          <span id="balance-amount">0</span>
+        </div>
+      </div>
+
+      <div class="list">
+        <p>Expenses list</p>
+        <div class="list-container" id="list"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
